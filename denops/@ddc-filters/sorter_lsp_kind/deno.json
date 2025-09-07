@@ -1,0 +1,15 @@
+{
+  "name": "@shougo/ddc-filter-sorter_lsp_kind",
+  "exports": {
+    ".": "./main.ts"
+  },
+  "publish": {
+    "include": [
+      "**/*.ts"
+    ]
+  },
+  "imports": {
+    "@shougo/ddc-source-lsp": "jsr:@shougo/ddc-source-lsp@~1.2.0",
+    "@shougo/ddc-vim": "jsr:@shougo/ddc-vim@~10.0.0"
+  }
+}
